@@ -8,6 +8,8 @@ const camera = require('regl-camera')(regl, {
   center: [0, 5, 0]
 });
 
+console.log('coolio');
+
 const drawBunny = regl({
   vert: `
     precision mediump float;
